@@ -1,0 +1,25 @@
+.article-accordion {
+  border: 1px solid transparent;
+  transition: border-color 0.3s ease;
+
+  &.is-light {
+    background-color: #1976d2;
+    color: #ffffff;
+  }
+
+  &.is-dark {
+    background-color: #333;
+    color: darkgray;
+  }
+
+  &:hover {
+    border-color: red;
+  }
+
+  .content {
+    &:first-letter {
+      font-size: 2rem;
+      color: red;
+    }
+  }
+}
